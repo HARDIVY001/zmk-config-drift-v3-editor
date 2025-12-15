@@ -58,7 +58,7 @@
 
             sensor-bindings =
                 <&enc_scroll SCRL_UP SCRL_DOWN>,
-                <&enc_scroll SCRL_LEFT SCRL_RIGHT>;
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         lower_layer {
